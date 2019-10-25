@@ -3,8 +3,12 @@
 ##########################################
 party_issues = {
 	trade_policy = {
-		protectionism = {
+		seclusion = {
 			max_tariff = 1
+			min_tariff = 0.8
+		}
+		protectionism = {
+			max_tariff = 0.8
 			min_tariff = -0.25
 		}
 		free_trade = {
@@ -111,16 +115,16 @@ party_issues = {
 	
 	religious_policy = {
 		pro_atheism = {
-			#no effect
+			factory_cost = -0.05
 		}
 		secularized = {
-			#no effect
+			education_efficiency = 0.1
 		}
 		pluralism = {
-			#no effect
+			global_immigrant_attract = 0.01
 		}
 		moralism = {
-			#no effect
+			pop_growth = 0.0002
 		}
 	}
 	citizenship_policy = {

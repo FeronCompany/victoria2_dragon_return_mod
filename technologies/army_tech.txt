@@ -303,7 +303,6 @@ modern_army_doctrine = {
 		}
 	}
 }
-
 blitzkrieg_war = {
 	area = army_doctrine
 	year = 1932
